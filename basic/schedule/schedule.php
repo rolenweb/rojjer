@@ -1,0 +1,3 @@
+<?php
+$schedule->command('ordertime');
+?>

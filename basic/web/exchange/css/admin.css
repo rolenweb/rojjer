@@ -1,0 +1,393 @@
+.navbar-brand{
+	padding: 7px;
+}
+/* set margin */
+.margin-right-10{
+	margin-right: 10px;
+}
+.margin-left-10{
+	margin-left: 10px;
+}
+.margin-top-10{
+	margin-top: 10px;
+}
+.margin-top-20{
+	margin-top: 20px;
+}
+.margin-bottom-10{
+	margin-bottom: 10px;
+}
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+
+/* set margin */
+
+/* Orders list page */
+.order-preview{
+	background-color: #ffffff;
+}
+.title-preview{
+	margin-left: 10px;
+}
+.cost-order-preview{
+	background-color: #f39c12;
+	color: #ffffff;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.catalog-preview{
+
+}
+.catalog-preview span {
+	text-decoration: underline;
+}
+.language-preview{
+
+}
+.language-preview span {
+	text-decoration: underline;
+}
+.status-preview{
+
+}
+.status-preview span {
+	text-decoration: underline;	
+}
+.translater-preview{
+
+}
+.translater-preview span{
+	text-decoration: underline;		
+}
+.period-preview span{
+	text-decoration: underline;			
+}
+/* Orders list page */
+
+/* translaters list page */
+.translaters-page-preview{
+	background-color: #ffffff;
+}
+.translaters-page-preview .title{
+
+}
+.translaters-page-preview .photo{
+
+}
+.translaters-page-preview .category{
+
+}
+.translaters-page-preview .language{
+
+}
+.translaters-page-preview .status{
+
+}
+.translaters-page-preview .level{
+
+}
+.translaters-page-preview .edu{
+
+}
+/* translaters list page */
+
+/*profile*/
+.recomendation-file-profile{
+	margin-bottom: 30px;
+}
+.summary-file-profile{
+	margin-bottom: 30px;	
+}
+.country-profile{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+/*profile*/
+
+/*commets of order*/
+.link-comment > a{
+	color: #ffffff;
+}
+/*commets of order*/
+/*balance top*/
+.balance-link{
+	background: #8e44ad none repeat scroll 0 0 !important;
+}
+/*balance top*/
+
+/*balance page*/
+.add-balance{
+	margin-top: 40px;
+	
+}
+/*balance page*/
+
+/*order page ok*/
+.body-order-ok-portlet{
+	border: 0;
+}
+.portlet  .body-order-ok{
+	background: #3B97AC none repeat scroll 0 0
+}
+.cont-order-ok{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+@media (max-width:449px){
+	.cont-order-ok{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+.title-order-ok h1{
+	color: #fff;
+	font-weight: bold;
+}
+@media (min-width:890px) and (max-width:991px){
+	.title-order-ok h1{
+		font-size: 30px;
+
+	}
+}
+
+@media (min-width:450px) and (max-width:889px){
+	.title-order-ok h1{
+		font-size: 26px;
+
+	}
+}
+@media (max-width:449px){
+	.title-order-ok h1{
+		font-size: 20px;
+
+	}
+}
+.btn-big-order-ok{
+	background-color: #2F5274;
+	border-radius: 0;
+	font-size: 22px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border: 0;
+}
+@media (min-width:890px) and (max-width:991px){
+	.btn-big-order-ok{
+		font-size: 17px;
+
+	}
+}
+@media(min-width:550px) and (max-width:889px){
+	.btn-big-order-ok{
+		font-size: 14px;
+
+	}
+}
+@media(min-width:450px) and (max-width:549px){
+	.btn-big-order-ok{
+		font-size: 12px;
+
+	}
+}
+@media (max-width:449px){
+	.btn-big-order-ok{
+		font-size: 10px;
+
+	}
+}
+
+.btn-new-order-ok{
+	background-color: #2F5274;
+	border-radius: 0;
+	font-size: 22px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border: 0;
+	
+}
+@media (min-width:890px) and (max-width:991px){
+	.btn-new-order-ok {
+		font-size: 17px;
+
+	}
+}
+@media(min-width:550px) and (max-width:889px){
+	.btn-new-order-ok {
+		font-size: 14px;
+
+	}
+}
+@media(min-width:450px) and (max-width:549px){
+	.btn-new-order-ok {
+		font-size: 12px;
+
+	}
+}
+@media (max-width:449px){
+	.btn-new-order-ok {
+		font-size: 10px;
+
+	}
+}
+
+.btn-view-order-ok{
+	background-color: #2F5274;
+	border-radius: 0;
+	font-size: 22px;
+	padding-left: 51px;
+	padding-right: 51px;	
+	border: 0;
+	
+}
+@media (min-width:890px) and (max-width:991px){
+	.btn-view-order-ok{
+		font-size: 17px;
+
+	}
+}
+@media(min-width:550px) and (max-width:889px){
+	.btn-view-order-ok{
+		font-size: 14px;
+
+	}
+}
+@media(min-width:450px) and (max-width:549px){
+	.btn-view-order-ok{
+		font-size: 12px;
+
+	}
+}
+@media (max-width:449px){
+	.btn-view-order-ok{
+		margin-top: 10px;
+		font-size: 10px;
+
+	}
+}
+
+
+.btn-find-order-ok{
+	background-color: #2F5274;
+	border-radius: 0;
+	font-size: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 0;	
+	
+}
+@media (min-width:890px) and (max-width:991px){
+	.btn-find-order-ok{
+		font-size: 17px;
+		padding-left: 17px;
+		padding-right: 17px;
+
+	}
+}
+@media(min-width:550px) and (max-width:889px){
+	.btn-find-order-ok{
+		font-size: 14px;
+		padding-left: 18px;
+		padding-right: 18px;
+
+	}
+}
+@media(min-width:450px) and (max-width:549px){
+	.btn-find-order-ok{
+		font-size: 12px;
+		padding-left: 19px;
+		padding-right: 19px;
+
+	}
+}
+@media (max-width:449px){
+	.btn-find-order-ok{
+		font-size: 10px;
+		padding-left: 19px;
+		padding-right: 19px;
+
+	}
+}
+.btn-no-thanks-order-ok{
+	background-color: #2F5274;
+	border-radius: 0;
+	font-size: 22px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 0;	
+	
+}
+@media (min-width:890px) and (max-width:991px){
+	.btn-no-thanks-order-ok{
+		font-size: 17px;
+		padding-left: 35px;
+		padding-right: 35px;
+
+	}
+}
+@media(min-width:550px) and (max-width:889px){
+	.btn-no-thanks-order-ok{
+		font-size: 14px;
+		padding-left: 38px;
+		padding-right: 37px;
+
+	}
+}
+@media(min-width:450px) and (max-width:549px){
+	.btn-no-thanks-order-ok{
+		font-size: 12px;
+		padding-left: 40px;
+		padding-right: 37px;
+
+	}
+}
+@media (max-width:449px){
+	.btn-no-thanks-order-ok{
+		margin-top: 10px;
+		font-size: 10px;
+		padding-left: 40px;
+		padding-right: 37px;
+
+	}
+}
+/*order page ok*/
+/* rating stars */
+.goldstar{
+	color: #FDE16D;
+	vertical-align: middle;
+	
+	margin-left: 3px;
+	
+}
+.badge-view-order{
+	padding: 5px 10px;
+	vertical-align: middle;
+}
+/* rating stars */
+
+/* list order alert */
+.cicle-alert-order{
+	height: 45px;
+	width: 45px;
+}
+.cicle-alert-order .fa{
+	line-height: 40px;
+}
+/* list order alert */
+
+/* online monitiring */
+.monitor-progress{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.monitor-text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/* online monitoring */
