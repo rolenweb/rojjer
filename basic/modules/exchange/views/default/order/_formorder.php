@@ -3,6 +3,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\jui\DatePicker;
 use kartik\rating\StarRating;
+use letyii\tinymce\Tinymce;
 
 $this->registerJsFile(Yii::$app->request->baseUrl.'/exchange/js/custom.js',['depends' => [\yii\web\JqueryAsset::className()]]);
 ?>
