@@ -30,6 +30,7 @@ use app\modules\exchange\models\Aboutme;
 use app\modules\exchange\models\Education;
 use app\modules\exchange\models\WorkExperience;
 use app\modules\exchange\models\BillingAddress;
+use app\modules\exchange\models\UploadFormNew;
 use yii\web\NotFoundHttpException;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -2062,6 +2063,36 @@ class DefaultController extends Controller
         }
 
 
+    }
+
+    public function actionLoadFileCv()
+    {
+        if (!\Yii::$app->user->isGuest) {
+            if(Yii::$app->request->isAjax){
+
+                $post_data = Yii::$app->request->post();
+
+                $profile = $this->findModelprofile(Yii::$app->user->identity->id);
+
+                if (Yii::$app->user->identity->id == $post_data['user_id'] && $profile != NULL) {
+                    $file = new UploadFormNew();
+                    $file->imageFiles = UploadedFile::getInstanceByName('imageFiles');
+                        
+                    $upload_file = $file->upload($profile->id,'cv');
+
+                    if ($upload_file) {
+                        $result = 'The file CV is loaded';
+                    }
+                    return $this->renderAjax('profile/_result', [
+                              'result' => $result,
+                              
+                            ]);    
+                }
+            }
+        }
+        else{
+            return $this->goHome();
+        }
     }
 
 

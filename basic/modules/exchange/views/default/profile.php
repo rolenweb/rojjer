@@ -4,6 +4,7 @@ use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use dosamigos\datepicker\DatePicker;
 
+$this->registerJsFile('@web/exchange/js/profile/cv/cv.js', ['depends' => [\yii\web\JqueryAsset::className()]]);
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model app\models\ContactForm */
@@ -110,6 +111,8 @@ $this->title = 'Profile';
                                                     </li>
                                                     <li><a href="#aboutme" data-toggle="tab"><i class="fa fa-list-alt"></i> About me</a>
                                                     </li>
+                                                    <li><a href="#cv" data-toggle="tab"><i class="fa fa-list-alt"></i> CV</a>
+                                                    </li>
                                                     <li><a href="#educationedit" data-toggle="tab"><i class="fa fa-list-alt"></i> Education</a>
                                                     </li>
                                                     <li><a href="#workexperience_edit" data-toggle="tab"><i class="fa fa-list-alt"></i> Work experiense</a>
@@ -148,6 +151,9 @@ $this->title = 'Profile';
                                                             'model_aboutme' => $model_aboutme,
                                                             
                                                             ]); ?> 
+                                                    </div>
+                                                    <div class="tab-pane fade" id="cv">
+                                                       <?= $this->render('profile/_cv'); ?> 
                                                     </div>
                                                     <div class="tab-pane fade" id="educationedit">
                                                        <?= $this->render('profile/_education', [

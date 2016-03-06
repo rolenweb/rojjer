@@ -1,3 +1,6 @@
+.unvisible{
+	display: none;
+}
 .navbar-brand{
 	padding: 7px;
 }
